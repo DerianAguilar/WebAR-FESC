@@ -27,28 +27,24 @@ const App = () => {
         </div>
         <div className="but">
             <Button
-              variant="custom"
               className={activeButton === 1 ? "custom-button active" : "custom-button"}
               onClick={() => handleButtonClick("model1",1,"#2980B9")}
             >
               Ingenieria de software
             </Button>
             <Button
-              variant="custom"
               className={activeButton === 2 ? "custom-button-2 active" : "custom-button-2"}
               onClick={() => handleButtonClick("model2",2,"#E74C3C")}
             >
               Administración Financiera
             </Button>
             <Button
-              variant="custom"
               className={activeButton === 3 ? "custom-button-3 active" : "custom-button-3"}
               onClick={() => handleButtonClick("model3",3,"#2ECC71")}
             >
               Diseño Grafico
             </Button>
             <Button
-              variant="custom"
               className={activeButton === 4 ? "custom-button-4 active" : "custom-button-4"}
               onClick={() => handleButtonClick("model4",4,"#9B59B6")}
             >
